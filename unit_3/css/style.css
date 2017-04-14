@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	font-weight: 100;
+	font-family: Helvetica;
+	font-style: italic;
+
+	color: #fff;
+	
+	background: url("https://images.pexels.com/photos/29226/pexels-photo-29226.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
+	background-size: cover;
+	background-color: #fff;
+}
+
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: Helvetica;
+	font-style: normal;
+}
+
+a { 
+   color: #fff; 
+   text-decoration: none;
+   font-weight: 600
+   text-transform: uppercase;
+}
+
+
+hr {
+  width: 1000px;
+}
+
+
+
+
+
