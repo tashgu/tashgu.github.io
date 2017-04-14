@@ -4,11 +4,9 @@ body {
 	font-family: Helvetica;
 	font-style: italic;
 
-	color: #fff;
-	
-	background: url("https://images.pexels.com/photos/29226/pexels-photo-29226.jpg?w=940&h=650&auto=compress&cs=tinysrgb");
-	background-size: cover;
+	color: black;
 	background-color: #fff;
+
 }
 
 
@@ -21,18 +19,17 @@ h1 {
 }
 
 a { 
-   color: #fff; 
+   color: black; 
    text-decoration: none;
    font-weight: 600
    text-transform: uppercase;
 }
 
-
 hr {
   width: 1000px;
 }
 
-
-
-
-
+img {
+    width: 80%;
+    height: 20%;
+}
