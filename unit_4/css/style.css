@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
+
+
+body {
+	text-align: center;
+	font-weight: 100;
+	font-family:'Lato', sans-serif;
+	font-style: italic;
+
+	color: black;
+	background-color: #fff;
+
+}
+
+
+h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family:'Merriweather', serif;
+	font-style: normal;
+}
+
+a { 
+   color: black; 
+
+   font-style: normal;
+   font-weight: 600
+   font-family:'Lato', sans-serif;
+
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+}
+
+#email {
+ 
+   color: black; 
+
+   font-style: normal;
+   font-weight: 600
+   font-family'Lato', sans-serif;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: none;
+
+}
+
+p {
+    text-align: center;
+
+	font-family:'Lato', sans-serif;
+	font-style: normal;
+}
+
+hr {
+  width: 1000px;
+  text-align: center;
+
+}
+
+img {
+    width: 80%;
+    height: 20%;
+}
+
