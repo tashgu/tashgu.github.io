@@ -55,7 +55,7 @@ p {
 	font-family:'Lato', sans-serif;
 	font-style: normal;
 
-  padding: .5em
+  padding: .5em;
 }
 
 hr {
@@ -68,7 +68,7 @@ hr {
 }
 
 img {
-    width: 55%;
+    width: 100%;
 }
 
 #email {
@@ -89,37 +89,30 @@ img {
 #three_column {
     border: 1px black solid;
     padding: 20px;
-    height: 550px
+
 }
 
-#column_1 {
+.column {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
     float: left;
     width: 33.3%;
-    height: 350px
+
+  }
+
+.column p {
+  text-align: justify;
 }
 
-#column_2 {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;   
-    width: 33.3%;
-    height: 350px
+
+.container {
+
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-#column_3 {
-
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;   
-    width: 33.3%;
-    height: 350px
-
-}
 
 .clearfix:after {
     visibility: hidden;
