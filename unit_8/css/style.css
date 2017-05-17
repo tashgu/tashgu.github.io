@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+/* Simple or Modern CSS Reset */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+   
+    border: 1px black solid;
+    padding: 20px;
+ 
+}
+
+h1 {
+  font-family: 'Patua One', cursive;
+  font-weight: 400;
+  font-size: 40px
+
+}
+
+a:hover {
+  background-color: white;
+
+}
+nav {
+
+  background-color: #E80C62;
+  color: white;
+  padding: 20px;
+
+}
+
+nav #left {
+
+  float: left;
+  width: 25%;
+
+}
+
+nav #right {
+
+  float: right;
+  width: 75%;
+  max-width: 352px;
+
+}
+
+
+#logotype {
+
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  width: 100px;
+  font-style: normal;
+  padding: .8em;
+
+}
+
+#logotype span {
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center; 
+  line-height: 20px;
+  font-size: 14px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 1.2em;
+}
+
+
+
+
+body {
+	text-align: center;
+
+	font-weight: 100;
+	font-family:'Lato', sans-serif;
+	font-style: italic;
+
+  padding: .8em .8em;
+
+}
+
+
+a { 
+   color: black; 
+   background-color: #E80C62;
+
+   font-style: normal;
+   font-weight: 700;
+   font-family:'Lato', sans-serif;
+
+   text-align: center;
+   text-decoration: underline;
+   text-transform: uppercase;
+   padding: .8em .8em;
+   display: inline-block;
+}
+
+p {
+  
+  text-align: center;
+	font-family:'Lato', sans-serif;
+	font-style: normal;
+
+  padding: .5em;
+}
+
+hr {
+  width: 1000px;
+  text-align: center;
+
+  margin: .8em .8em;
+  display: inline-block;
+
+}
+
+img {
+    width: 100%;
+}
+
+#event {
+
+  width: 100px;
+
+}
+
+#email {
+ 
+   color: black; 
+
+   font-style: normal;
+   font-weight: 600;
+   font-family:'Lato', sans-serif;
+
+   text-align: center;
+   text-decoration: none;
+   text-transform: none;
+   padding: .8em .8em;
+   display: block;
+}
+
+#three_column {
+    padding: 20px;
+
+}
+
+.column {
+    background-color: white;
+    padding: 20px;
+    float: left;
+    width: 33.3%;
+
+  }
+
+.column p {
+  text-align: justify;
+  padding: 0.4em 0 0 0;
+  line-height: 1.25;
+
+}
+
+.container {
+
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .column {
+        width: 50%;
+    }
+    .column:last-child {
+        width: 100%;
+    }
+
+} 
+
+
+@media screen and (max-width: 509px) {
+    .column {
+        width: 100%;
+    }
+  
+
+} 

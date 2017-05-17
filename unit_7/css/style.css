@@ -1,6 +1,7 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lato|Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One');
 
 /* Simple or Modern CSS Reset */
 * {
@@ -13,9 +14,10 @@ header {
    
     border: 1px black solid;
     padding: 20px;
-    font-style: 'Abril Fatface', cursive;
-    
-}
+ 
+#heading {
+    font-family: 'Bowlby One', cursive;
+ }
 
 a:hover {
   background-color: white;
@@ -24,16 +26,52 @@ a:hover {
 nav {
 
   background-color: #E80C62;
-  color: white
-  text-decoration: none;
-  display: block;
-  float: right;
+  color: white;
   padding: 20px;
+
+}
+
+nav #left {
+
+  float: left;
+  width: 25%;
+
+}
+
+nav #right {
+
+  float: right;
+  width: 75%;
+
 }
 
 
+#logotype {
+
+  color: black;
+  font-family: 'Lato';
+  font-size: 20px;
+  position: relative;
+  width: 100px;
+  font-style: normal;
 
 }
+
+#logotype span {
+
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center; 
+  line-height: 30px;
+  font-size: 14px;
+  background-color: white;
+  position: absolute;
+  right: 0;
+  top: 5px;
+}
+
 
 body {
 	text-align: center;
@@ -47,20 +85,12 @@ body {
 }
 
 
-h1 {
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 500;
-	font-family:'Merriweather', serif;
-	font-style: normal;
-}
-
 a { 
    color: black; 
    background-color: #E80C62;
 
    font-style: normal;
-   font-weight: 600;
+   font-weight: 700;
    font-family:'Lato', sans-serif;
 
    text-align: center;
