@@ -2,55 +2,82 @@
 <html>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
+	<link href="css/owl.carousel.css" rel="stylesheet" type="text/css">
+	<link href="css/owl.carousel.theme.css" rel="stylesheet" type="text/css">
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 	<title>Event Lab D.C.</title>
+
 </head>
 <body>
-	<header class="container">
-		<h1>Events Washington DC</h1>
-	</header>
-	<nav class="container clearfix">
-		<div id="left"> 
-			<h1 id="logotype">Event <span>+</span></h1>
-		</div>
-		<div id="right">
-			<a href="#">Home</a> 
-			<a href="#">Events</a> 
-			<a href="#">About</a> 
-			<a href="#">Contact</a> 
+	
+	<nav>
+		<div class="container clearfix">
+			<div id="left"> 
+				<h1 id="logotype">Event <span>+</span></h1>
+			</div>
+			<div id="right">
+				<a href="#">Home</a> 
+				<a href="#">Events</a> 
+				<a href="#">About</a> 
+				<a href="#">Contact</a> 
+			</div>
 		</div>
 	</nav>
 
 
-	<div class="hero-image">
-  		<div class="hero-text">
-    		<h1>Washington DC</h1>
- 		 </div>
-	</div>
-
-	<section class="clearfix container" id="hero">
-		<img alt="The White House" src="images/white house.jpg" title="The White House">
+		<div class="container clearfix">
+	  		<div class="hero-text">
+	    		<h2>Washington DC Events</h2>
+	 		 </div>
+	 		 <div class="owl-carousel owl-theme">
+	 		 <div class="slide"> <img alt="Washington" src="images/washington.jpg" title="Washington"></div>
+ 			<div class="slide"> <img alt="Cherry Blossoms" src="images/wcb.jpg" title="Cherry Blossoms"></div>
+	 		 <div class="slide"> <img alt="Monument" src="images/mon.jpg" title="Monument"></div>
+	 		 </div>
+	 	</div>
+	
+	<section id="three_column">
+		<div class="clearfix container">
+			<article id="column_1" class="column">
+				<img alt="American Flag" src="images/flag.jpg" title="USA Flag">
+				<p>Memorial Day: Memorial Day is a perfect time to savor all of DC’s outdoor offerings. Awesome rooftop bars that feature delicious cocktails and by-the-pool lounging can be experienced all over the city. There are also plenty of places to take in beautiful views of the Potomac River, whether you are actually on the water or near it. 
+				</p>
+			</article>
+			<article id="column_2" class="column">
+				<img alt="Lincoln Memorial" src="images/washington dc.jpg" title="Lincoln Memorial">
+				<p>
+				The Opera House at the Kennedy Center plays host to this grand finale celebration, held on the actual day of JFK’s 100th birthday. The large-scale show will honor the ideals of President Kennedy in spectacular fashion, with stars of stage and screen on hand to pay tribute to the 35th commander-in-chief.
+				</p>
+			</article>
+			<article id="column_3" class="column">
+				<img alt="Shark" src="images/shark.jpg" title="Shark">
+				<p>One of the season’s most anticipated exhibits comes to the National Geographic Museum. More than 100 million sharks are killed each year, endangering the species. Photographer Brian Skerry’s work shows how integral sharks are to our ecosystem and that humans should do whatever it takes to preserve and appreciate the creatures.</p>
+			</article>
+		</div>
 	</section>
-	<section class="clearfix container" id="three_column">
-		<article id="column_1" class="column">
-			<img alt="American Flag" src="images/flag.jpg" title="Flag">
-			<p>Memorial Day: Memorial Day is a perfect time to savor all of DC’s outdoor offerings. Awesome rooftop bars that feature delicious cocktails and by-the-pool lounging can be experienced all over the city. There are also plenty of places to take in beautiful views of the Potomac River, whether you are actually on the water or near it. 
-			</p>
-		</article>
-		<article id="column_2" class="column">
-			<img alt="The linkcon memorial" src="images/washington dc.jpg" title="lincon memorial">
-			<p>
-			The Opera House at the Kennedy Center plays host to this grand finale celebration, held on the actual day of JFK’s 100th birthday. The large-scale show will honor the ideals of President Kennedy in spectacular fashion, with stars of stage and screen on hand to pay tribute to the 35th commander-in-chief.
-			</p>
-		</article>
-		<article id="column_3" class="column">
-			<img alt="Shark" src="images/shark.jpg" title="Shark">
-			<p>One of the season’s most anticipated exhibits comes to the National Geographic Museum. More than 100 million sharks are killed each year, endangering the species. Photographer Brian Skerry’s work shows how integral sharks are to our ecosystem and that humans should do whatever it takes to preserve and appreciate the creatures.</p>
-		</article>
-	</section>
-	<footer class="container">
-		<p>Say Hello!</p><a href="mailto:tashlguenther@gmail.com?subject=Hello!" id="email">Natasha Guenther &copy;</a>
+	<footer>
+		<div class="container clearfix">
+			<p>Say Hello!</p><a href="mailto:tashlguenther@gmail.com?subject=Hello!" id="email">Natasha Guenther &copy;</a>
+		</div>
 	</footer>
+	<script src="js/owl.carousel.js"></script>
+
+<script type="text/javascript">
+
+	$(document).ready(function(){
+  
+  		$(".owl-carousel").owlCarousel({
+  			items: 1, 
+  			nav: true
+  		});
+	
+	});
+
+</script>
+
 </body>
 </html>
